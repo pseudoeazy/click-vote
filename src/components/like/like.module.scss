@@ -1,0 +1,27 @@
+@import "styles/settings/_variables.scss";
+@import "styles/settings/_mixins.scss";
+
+.like {
+    display: flex;
+    width: 8.59188rem;
+    padding: 0.4375rem 0.96438rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.52606rem;
+    border-radius: 3.38263rem;
+    background: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(11.923460006713867px);
+    color: #fff;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 1.5rem */
+
+    &__spacer {
+        width: 0.0625rem;
+        height: 1rem;
+        background: rgba(255, 255, 255, 0.3);
+    
+    }
+}

@@ -1,0 +1,35 @@
+@import "styles/settings/_variables.scss";
+@import "styles/settings/_mixins.scss";
+
+.menu {
+    position: relative;
+    z-index: 10;
+    @include responsive(desktop) {
+        padding: 3.44rem 2.84rem 1.92rem 2.84rem;
+    }
+
+    &__list {
+        margin-right: 2.5rem;
+    }
+    &__item {
+        margin-right: 2.5rem;
+    }
+    &__link {
+        color: $color-white;
+        text-align: center;
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 135%; /* 1.26563rem */
+        text-transform: capitalize;
+
+        &:link,
+        &:visited {
+            transition: all 0.4s;
+        }
+        &:hover,
+        &:active {
+            border-bottom: 1px solid $color-primary;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+@import "styles/settings/_variables.scss";
+@import "styles/settings/_mixins.scss";
+
+.hero {
+    &__title {
+        text-align: center;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 122%; /* 2.44rem */
+
+        @include responsive(desktop) {
+            font-size: 71.74px;
+            line-height: 130%; /* 93.262px */
+        }
+        text-transform: capitalize;
+        margin-top: -10rem;
+        background: linear-gradient(0deg, #fff 10.01%, #af47ff 81.27%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &__info {
+        color: #fff;
+        text-align: center;
+        font-size: 1.0625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 1.4875rem */
+
+        @include responsive(desktop) {
+            font-size: 1.1875rem;
+            line-height: 160%; /* 1.9rem */
+        }
+    }
+
+    &__cta {
+        display: flex;
+        width: 14.375rem;
+        padding: 1rem 3rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 0.4375rem;
+        background: linear-gradient(219deg, #af46ff 31.03%, #950aff 99.96%);
+        backdrop-filter: blur(17px);
+        color: #fff;
+        text-align: center;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 1.8rem */
+        transition: all 0.5s;
+
+        &:hover,
+        &:active {
+            transform: translateY(-4px) scale(1.2);
+        }
+    }
+}

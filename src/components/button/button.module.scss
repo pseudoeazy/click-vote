@@ -1,0 +1,29 @@
+.button {
+    display: flex;
+    width: 8.375rem;
+    height: 3.75rem;
+    padding: 1.25rem 1.375rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 1.6rem */
+    &--1 {
+        border-radius: 0.4375rem;
+        border: 2px solid #af46ff;
+        background: linear-gradient(180deg, #af46ff -260.61%, rgba(175, 70, 255, 0) 117.42%);
+        backdrop-filter: blur(17px);
+    }
+    &--2 {
+        border-radius: 0.4375rem;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) -35.25%, rgba(255, 255, 255, 0) 111.48%);
+        backdrop-filter: blur(17px);
+    }
+}

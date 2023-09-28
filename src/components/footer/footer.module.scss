@@ -1,0 +1,21 @@
+.footer {
+    &__link {
+        color: #fff;
+        text-align: center;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 1.4rem */
+        text-transform: capitalize;
+
+        &:link,
+        &:visited {
+            transition: all 0.4s;
+        }
+        &:hover,
+        &:active {
+            border-bottom: 1px solid blue;
+        }
+    }
+  
+}

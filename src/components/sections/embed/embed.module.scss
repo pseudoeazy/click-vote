@@ -1,0 +1,16 @@
+.embed {
+    margin-top: 13.28rem;
+
+    &__title {
+        margin-top: 2.45rem;
+        text-align: center;
+        font-size: 2.75rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%; /* 3.575rem */
+        background: linear-gradient(0deg, #af47ff -21%, #fff 70.96%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
