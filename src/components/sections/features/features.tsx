@@ -21,7 +21,7 @@ const details = [
   },
   {
     id: 3,
-    title: `Integrate our system to yours`,
+    title: `Integrate our system to yours.`,
     description: `Once we receive your likes, we send the Information to your System as you want it: API calls or listening to Kafka topics.`,
     image: featureThreeImage,
   },
