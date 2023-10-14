@@ -32,7 +32,7 @@ export default function Features() {
       <h3 className={styles.features__title}>features</h3>
       <div className="flex justify-center space-x-8">
         {details.map((detail, idx) => (
-          <div className={styles.features__grid}>
+          <div className={styles.features__grid} key={idx}>
             <div
               key={detail.id}
               className="relative flex justify-center pt-10  rounded"
