@@ -4,7 +4,7 @@ import styles from "./github-star.module.scss";
 
 export default function GithubStar() {
   return (
-    <div className={`${styles.github} space-x-[0.62rem]`}>
+    <div className={`${styles.github} w-fit space-x-[0.62rem]`}>
       <div className="flex space-x-[0.62rem] items-center">
         <Github />
         <span>Star us</span>

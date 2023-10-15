@@ -8,15 +8,15 @@ import SocialIcons from "components/social-icons";
 
 export default function Footer() {
   return (
-    <footer className="">
-      <Container className=" w-max-[63rem]">
-        <section className="flex justify-between mb-[2.88rem]">
+    <footer className="max-w-[90rem] mx-auto lg:p-12 p-2 pb-12">
+      <Container className="w-max-[63rem]">
+        <section className="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:justify-between mb-12">
           <Logo />
           <GithubStar />
         </section>
-        <section className="flex ">
-          <div className="flex-1 flex space-x-12" >
-            <ul className="flex-1">
+        <section className="flex lg:justify-between flex-col lg:flex-row">
+          <div className="grid grid-cols-3 lg:gap-x-36 ">
+            <ul className="">
               {footerMenu1.map((menu, idx) => (
                 <li key={idx}>
                   <Link href={`/#${menu.path}`} className={styles.footer__link}>
@@ -25,7 +25,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-            <ul className="flex-1">
+            <ul className="">
               {footerMenu2.map((menu, idx) => (
                 <li key={idx}>
                   <Link href={`/#${menu.path}`} className={styles.footer__link}>
@@ -34,7 +34,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-            <ul className="flex-1">
+            <ul className="">
               {footerMenu3.map((menu, idx) => (
                 <li key={idx}>
                   <Link href={`/#${menu.path}`} className={styles.footer__link}>

@@ -30,7 +30,7 @@ export default function Features() {
   return (
     <section className="my-[10.62rem] ">
       <h3 className={styles.features__title}>features</h3>
-      <div className="flex justify-center space-x-8">
+      <div className="flex flex-col lg:flex-row items-center  lg:justify-center lg:space-x-8 space-y-8 lg:space-y-0">
         {details.map((detail, idx) => (
           <div className={styles.features__grid} key={idx}>
             <div

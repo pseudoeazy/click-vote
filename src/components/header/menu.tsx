@@ -23,7 +23,7 @@ const Menu = () => (
       <ul className={`${classes.ul} ${styles.menu__list}`}>
         {menus.map((menu, idx) => (
           <li key={idx} className={styles.menu__item}>
-            <Link href={`/${menu.path}`} className={`${styles.menu__link}`}>
+            <Link href={`/#${menu.path}`} className={`${styles.menu__link}`}>
               {menu.label}
             </Link>
           </li>

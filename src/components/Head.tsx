@@ -8,7 +8,7 @@ const Head = ({ children }: Props) => {
     <Header>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       {children}
-      <title>Click Vote</title>
+      <title>Up Vote</title>
     </Header>
   );
 };
