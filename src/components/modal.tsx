@@ -50,8 +50,8 @@ function Modal() {
           <button onClick={openModal}>Open Modal</button>
           <SimpleModal isOpen={isModalOpen} onClose={closeModal}>
             <a
-              href="https://eazy.com"
-              target="https://eazy4sng.gumroad.com/l/ydmovm"
+              href="https://eazy4sng.gumroad.com/l/ydmovm"
+              target="_blank"
               className="modal__button modal__download"
             >
               <h2>Download Template</h2>
