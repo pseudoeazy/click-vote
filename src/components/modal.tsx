@@ -40,7 +40,7 @@ function Modal() {
   useEffect(() => {
     setTimeout(() => {
       setIsModalOpen(true);
-    }, 5000);
+    }, 3000);
   }, []);
 
   return (
